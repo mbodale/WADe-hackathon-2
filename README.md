@@ -6,7 +6,8 @@
 •	Indicate the factual involvement of each team’s member.</br>
 https://docs.google.com/document/d/1gzDtmCGKLrxaoKJBmLeexHvaFXnySGUMl_nSAAbxK3U/edit
 # My Solution:
-How to buy a Christmas tree during coronavirus COVID-19</br>
+How to buy a Christmas tree during coronavirus COVID-19?</br>
+FlowChart.png
 https://github.com/mbodale/WADe-hackathon-2/blob/main/FlowChart.png
 1. WHO TO VISIT FOR THE HOLIDAYS</br>
 Will you be spending Christmas with your parents or your friends? This is a decision you should make with your significant other, but it doesn't have to turn into a tug-of-war.</br>
