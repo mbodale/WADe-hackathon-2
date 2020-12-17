@@ -1,0 +1,1331 @@
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Kid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clothing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consumable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gesture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Holiday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intangible_Gift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Santa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snowstorm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sunny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tangible_Gift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time-Period"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#adheresTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#celebratedOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#friendsWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#givenAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gives"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interestedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#livesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#parentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#receives"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#santaGiftsOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#siblingOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#weatherAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#weatherOn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Andreea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Child"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Claudiu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Clothing"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Consumable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cristian"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ded_Moroz"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Digital"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Europe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gestures"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gift"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Intangible_figts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Russia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Santa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Santa_Claus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sarah"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Serghei"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tangible_gifts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Toy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WellManneredNegativeTested"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#boy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#girl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andreea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barbie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Christmas_Day"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Christmas_Day_Time_Period"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Christmas_Eve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Christmas_Eve_Time_Period"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Claudiu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cristian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ded_Moroz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Europe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hoodie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lego"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poker_table"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Russia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Santa_Claus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sarah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serghei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Versace_T-shirt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#New_Year&apos;s_Eve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#New_Year&apos;s_Eve_Time_Period"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:age"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:ageRange"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMax"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMin"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:covidPositive"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:covidTested"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:disinfected"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:end"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:gender"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:interestIndoor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:interestOutdoor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:interestSolo"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:isGood"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:lockdown"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:obstruction"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionBoat"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionPlane"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionRoad"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionTrain"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:reachable"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByBoat"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByPlane"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByRoad"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByTrain"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:sentByMail"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:start"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:targetGender"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:timeZoneGMT"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:virusVulnerable"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Child"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clear"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clothing"/>
+        <Class IRI="#Tangible_Gift"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consumable"/>
+        <Class IRI="#Tangible_Gift"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creative"/>
+        <Class IRI="#Interest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital"/>
+        <Class IRI="#Intangible_Gift"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gesture"/>
+        <Class IRI="#Intangible_Gift"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indoor"/>
+        <Class IRI="#Interest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intangible_Gift"/>
+        <Class IRI="#Gift"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdoor"/>
+        <Class IRI="#Interest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical"/>
+        <Class IRI="#Interest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rain"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Santa"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <Class IRI="#Intangible_Gift"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snow"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snowstorm"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social"/>
+        <Class IRI="#Interest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Solo"/>
+        <Class IRI="#Interest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storm"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sunny"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tangible_Gift"/>
+        <Class IRI="#Gift"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toy"/>
+        <Class IRI="#Tangible_Gift"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windy"/>
+        <Class IRI="#Weather"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Child"/>
+        <NamedIndividual IRI="#Andreea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toy"/>
+        <NamedIndividual IRI="#Barbie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Holiday"/>
+        <NamedIndividual IRI="#Christmas_Day"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time-Period"/>
+        <NamedIndividual IRI="#Christmas_Day_Time_Period"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Holiday"/>
+        <NamedIndividual IRI="#Christmas_Eve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time-Period"/>
+        <NamedIndividual IRI="#Christmas_Eve_Time_Period"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Child"/>
+        <NamedIndividual IRI="#Claudiu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Child"/>
+        <NamedIndividual IRI="#Cristian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Santa"/>
+        <NamedIndividual IRI="#Ded_Moroz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clothing"/>
+        <NamedIndividual IRI="#Hoodie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toy"/>
+        <NamedIndividual IRI="#Lego"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toy"/>
+        <NamedIndividual IRI="#Poker_table"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Santa"/>
+        <NamedIndividual IRI="#Santa_Claus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Child"/>
+        <NamedIndividual IRI="#Sarah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Child"/>
+        <NamedIndividual IRI="#Serghei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consumable"/>
+        <NamedIndividual IRI="#Sweets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clothing"/>
+        <NamedIndividual IRI="#Versace_T-shirt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Holiday"/>
+        <NamedIndividual IRI="#New_Year&apos;s_Eve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time-Period"/>
+        <NamedIndividual IRI="#New_Year&apos;s_Eve_Time_Period"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Ded_Moroz"/>
+        <NamedIndividual IRI="#Santa_Claus"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Andreea"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#celebratedOn"/>
+        <NamedIndividual IRI="#Christmas_Day"/>
+        <NamedIndividual IRI="#Christmas_Day_Time_Period"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#celebratedOn"/>
+        <NamedIndividual IRI="#Christmas_Day_Time_Period"/>
+        <NamedIndividual IRI="#Christmas_Eve_Time_Period"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#celebratedOn"/>
+        <NamedIndividual IRI="#Christmas_Eve"/>
+        <NamedIndividual IRI="#Christmas_Eve_Time_Period"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friendsWith"/>
+        <NamedIndividual IRI="#Claudiu"/>
+        <NamedIndividual IRI="#Cristian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Claudiu"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Cristian"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Sarah"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Serghei"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#celebratedOn"/>
+        <NamedIndividual IRI="#New_Year&apos;s_Eve"/>
+        <NamedIndividual IRI="#New_Year&apos;s_Eve_Time_Period"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WellManneredNegativeTested"/>
+        <NamedIndividual IRI="#Andreea"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WellManneredNegativeTested"/>
+        <NamedIndividual IRI="#Claudiu"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WellManneredNegativeTested"/>
+        <NamedIndividual IRI="#Cristian"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ded_Moroz"/>
+        <NamedIndividual IRI="#Ded_Moroz"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Santa_Claus"/>
+        <NamedIndividual IRI="#Santa_Claus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WellManneredNegativeTested"/>
+        <NamedIndividual IRI="#Sarah"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WellManneredNegativeTested"/>
+        <NamedIndividual IRI="#Serghei"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#friendsWith"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#siblingOf"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#adheresTo"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#celebratedOn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#givenAt"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#gives"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#interestedIn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#livesIn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#parentOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#receives"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#relatedTo"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#santaGiftsOn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#weatherAt"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#weatherOn"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#adheresTo"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#celebratedOn"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#friendsWith"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#givenAt"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#gives"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#interestedIn"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#livesIn"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#parentOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#receives"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#relatedTo"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#santaGiftsOn"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#siblingOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#weatherAt"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#weatherOn"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#adheresTo"/>
+        <Class IRI="#Human"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#celebratedOn"/>
+        <Class IRI="#Holiday"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#friendsWith"/>
+        <Class IRI="#Human"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#givenAt"/>
+        <Class IRI="#Gift"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#gives"/>
+        <Class IRI="#Santa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#interestedIn"/>
+        <Class IRI="#Child"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#livesIn"/>
+        <Class IRI="#Human"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#parentOf"/>
+        <Class IRI="#Human"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receives"/>
+        <Class IRI="#Child"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relatedTo"/>
+        <Class IRI="#Gift"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#santaGiftsOn"/>
+        <Class IRI="#Culture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#siblingOf"/>
+        <Class IRI="#Human"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#weatherAt"/>
+        <Class IRI="#Weather"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#weatherOn"/>
+        <Class IRI="#Weather"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#adheresTo"/>
+        <Class IRI="#Culture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#celebratedOn"/>
+        <Class IRI="#Time-Period"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#friendsWith"/>
+        <Class IRI="#Human"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#givenAt"/>
+        <Class IRI="#Time-Period"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#gives"/>
+        <Class IRI="#Gift"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interestedIn"/>
+        <Class IRI="#Interest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#livesIn"/>
+        <Class IRI="#Holiday"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#parentOf"/>
+        <Class IRI="#Human"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receives"/>
+        <Class IRI="#Gift"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relatedTo"/>
+        <Class IRI="#Interest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#santaGiftsOn"/>
+        <Class IRI="#Holiday"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#siblingOf"/>
+        <Class IRI="#Human"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#weatherAt"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#weatherOn"/>
+        <Class IRI="#Time-Period"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Andreea"/>
+        <DataProperty IRI="#girl"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Child"/>
+        <DataProperty IRI="#Human"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Claudiu"/>
+        <DataProperty IRI="#boy"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Clothing"/>
+        <DataProperty IRI="#Tangible_gifts"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Consumable"/>
+        <DataProperty IRI="#Tangible_gifts"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Cristian"/>
+        <DataProperty IRI="#boy"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Ded_Moroz"/>
+        <DataProperty IRI="#Santa"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Digital"/>
+        <DataProperty IRI="#Intangible_figts"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Europe"/>
+        <DataProperty IRI="#Location"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Gestures"/>
+        <DataProperty IRI="#Intangible_figts"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Gift"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Intangible_figts"/>
+        <DataProperty IRI="#Gift"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Russia"/>
+        <DataProperty IRI="#Location"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Santa"/>
+        <DataProperty IRI="#Human"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Santa_Claus"/>
+        <DataProperty IRI="#Santa"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Sarah"/>
+        <DataProperty IRI="#girl"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Serghei"/>
+        <DataProperty IRI="#boy"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Service"/>
+        <DataProperty IRI="#Intangible_figts"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Tangible_gifts"/>
+        <DataProperty IRI="#Gift"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Toy"/>
+        <DataProperty IRI="#Tangible_gifts"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#WellManneredNegativeTested"/>
+        <DataProperty IRI="#Child"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#boy"/>
+        <DataProperty IRI="#Child"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#girl"/>
+        <DataProperty IRI="#Child"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:age"/>
+        <IRI>#Andreea</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:virusVulnerable"/>
+        <IRI>#Andreea</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Barbie</IRI>
+        <Literal>http://dbpedia.org/page/Barbie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:isGood"/>
+        <IRI>#Child</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Child</IRI>
+        <Literal>http://dbpedia.org/page/Child</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Christmas_Day</IRI>
+        <Literal>http://dbpedia.org/page/Christmas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:age"/>
+        <IRI>#Claudiu</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:virusVulnerable"/>
+        <IRI>#Claudiu</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMax"/>
+        <IRI>#Clothing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMin"/>
+        <IRI>#Clothing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Clothing</IRI>
+        <Literal>http://dbpedia.org/page/Clothing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMax"/>
+        <IRI>#Consumable</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMin"/>
+        <IRI>#Consumable</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:age"/>
+        <IRI>#Cristian</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:virusVulnerable"/>
+        <IRI>#Cristian</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Culture</IRI>
+        <Literal>http://dbpedia.org/page/Culture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:age"/>
+        <IRI>#Ded_Moroz</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">99</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:gender"/>
+        <IRI>#Ded_Moroz</IRI>
+        <Literal>M</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:lockdown"/>
+        <IRI>#Europe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByBoat"/>
+        <IRI>#Europe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByPlane"/>
+        <IRI>#Europe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByRoad"/>
+        <IRI>#Europe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByTrain"/>
+        <IRI>#Europe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMax"/>
+        <IRI>#Gift</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMin"/>
+        <IRI>#Gift</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Gift</IRI>
+        <Literal>http://dbpedia.org/page/Gift</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:targetGender"/>
+        <IRI>#Gift</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:name"/>
+        <IRI>#Holiday</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Holiday</IRI>
+        <Literal>http://dbpedia.org/page/Holiday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:age"/>
+        <IRI>#Human</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:covidPositive"/>
+        <IRI>#Human</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:covidTested"/>
+        <IRI>#Human</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:gender"/>
+        <IRI>#Human</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:name"/>
+        <IRI>#Human</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#Name"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Human</IRI>
+        <Literal>http://dbpedia.org/page/Human</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:virusVulnerable"/>
+        <IRI>#Human</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:lockdown"/>
+        <IRI>#Location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByBoat"/>
+        <IRI>#Location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByPlane"/>
+        <IRI>#Location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByRoad"/>
+        <IRI>#Location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByTrain"/>
+        <IRI>#Location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Location</IRI>
+        <Literal>http://dbpedia.org/ontology/location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:lockdown"/>
+        <IRI>#Russia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByBoat"/>
+        <IRI>#Russia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByPlane"/>
+        <IRI>#Russia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByRoad"/>
+        <IRI>#Russia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByTrain"/>
+        <IRI>#Russia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:virusVulnerable"/>
+        <IRI>#Santa</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:age"/>
+        <IRI>#Santa_Claus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">99</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:gender"/>
+        <IRI>#Santa_Claus</IRI>
+        <Literal>M</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Santa_Claus</IRI>
+        <Literal>http://dbpedia.org/page/Santa_Claus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:age"/>
+        <IRI>#Sarah</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:virusVulnerable"/>
+        <IRI>#Sarah</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:age"/>
+        <IRI>#Serghei</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:virusVulnerable"/>
+        <IRI>#Serghei</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:disinfected"/>
+        <IRI>#Tangible_Gift</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sentByMail"/>
+        <IRI>#Tangible_Gift</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:disinfected"/>
+        <IRI>#Tangible_gifts</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:end"/>
+        <IRI>#Time-Period</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:start"/>
+        <IRI>#Time-Period</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMax"/>
+        <IRI>#Toy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMin"/>
+        <IRI>#Toy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <IRI>#Toy</IRI>
+        <Literal>http://dbpedia.org/page/Toy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionBoat"/>
+        <IRI>#Weather</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionPlane"/>
+        <IRI>#Weather</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionRoad"/>
+        <IRI>#Weather</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionTrain"/>
+        <IRI>#Weather</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:covidPositive"/>
+        <IRI>#WellManneredNegativeTested</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:covidTested"/>
+        <IRI>#WellManneredNegativeTested</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:isGood"/>
+        <IRI>#WellManneredNegativeTested</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:gender"/>
+        <IRI>#boy</IRI>
+        <Literal>M</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:gender"/>
+        <IRI>#girl</IRI>
+        <Literal>F</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMax"/>
+        <AnnotationProperty abbreviatedIRI="owl:ageRange"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="owl:ageRangeMin"/>
+        <AnnotationProperty abbreviatedIRI="owl:ageRange"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionBoat"/>
+        <AnnotationProperty abbreviatedIRI="owl:obstruction"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionPlane"/>
+        <AnnotationProperty abbreviatedIRI="owl:obstruction"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionRoad"/>
+        <AnnotationProperty abbreviatedIRI="owl:obstruction"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="owl:obstructionTrain"/>
+        <AnnotationProperty abbreviatedIRI="owl:obstruction"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByBoat"/>
+        <AnnotationProperty abbreviatedIRI="owl:reachable"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByPlane"/>
+        <AnnotationProperty abbreviatedIRI="owl:reachable"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByRoad"/>
+        <AnnotationProperty abbreviatedIRI="owl:reachable"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="owl:reachableByTrain"/>
+        <AnnotationProperty abbreviatedIRI="owl:reachable"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
