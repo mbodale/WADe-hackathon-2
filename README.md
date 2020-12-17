@@ -6,8 +6,10 @@
 •	Indicate the factual involvement of each team’s member.</br>
 https://docs.google.com/document/d/1gzDtmCGKLrxaoKJBmLeexHvaFXnySGUMl_nSAAbxK3U/edit
 # My Solution:
-How to buy a Christmas tree during COVID-19 Coronavirus Pandemic?</br>
-Every precaution is taken at Christmas Forest to follow government guidelines in relation to the COVID-19 Coronavirus Pandemic. With strict procedures in place to help prevent the spreading of the disese, purchasing from the largest Christmas Tree Delivery network: https://github.com/mbodale/WADe-hackathon-2/blob/main/FlowChart.png
+# How to buy a Christmas tree during COVID-19 Coronavirus Pandemic?</br>
+Every precaution is taken at Christmas Forest to follow government guidelines in relation to the COVID-19 Coronavirus Pandemic. With strict procedures in place to help prevent the spreading of the disese, purchasing from the largest Christmas Tree Delivery network:
+![](https://github.com/mbodale/WADe-hackathon-2/blob/main/FlowChart.png)</br>
+https://github.com/mbodale/WADe-hackathon-2/blob/main/FlowChart.png
 1. WHO TO VISIT FOR THE HOLIDAYS</br>
 Will you be spending Christmas with your parents or your friends? This is a decision you should make with your significant other, but it doesn't have to turn into a tug-of-war.</br>
 https://github.com/mbodale/WADe-hackathon-2/blob/main/family%20christmas%20holidays%20flowchart.png
