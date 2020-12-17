@@ -20,7 +20,7 @@ Major retailers often release flowcharts to help you decide what to give people 
 6. _*SIMPLE HOLIDAY SMARTPHONE ETIQUETTE*_</br>
 Most of the time, your phone is attached to your hand—but when you're with the family for holiday togetherness, you're sure to get a few snarky comments from relatives if you're using it all the time. Still, there are some situations that make phone use appropriate, so Shane Snow created a flowchart to help you navigate each possible scenario.</br>
 ![](https://github.com/mbodale/WADe-hackathon-2/blob/main/christmas%20lights%20phone.png)</br>
-7. CHRISTMAS LIGHTS*_</br>
+7. _*CHRISTMAS LIGHTS*_</br>
 You should have your Christmas lights up by now. Why don’t you? Are they not working? Are you putting off the annual testing regimen? Terry Ritter put up an entire website to help you troubleshoot Christmas lights 10 years ago. His flowcharts will take you through the process of testing your lights before you hang them. Or you can simplify things by simply plugging them in and throwing away the strings that don’t work.</br>
 ![](https://github.com/mbodale/WADe-hackathon-2/blob/main/christmas%20lights.png)</br>
 8. _*WHICH CHRISTMAS MOVIE TO WATCH*_</br>
