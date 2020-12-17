@@ -1,1 +1,155 @@
 Document containing TBox and RDF statements:
+1.	TBox of the knowledge base
+2.	Knowledge model
+3.	RDF statements
+<head>
+    <meta charset="utf-8">
+    <title>Conceptual_model</title>
+</head>
+<body>
+    <h1>
+        Conceptual Model Explanation Story - A Christmas Special
+    </h1>
+    <p>Christmas <b><i>holidays</i></b> are usually fulfilled by joy and <b><i>gift giving</i></b> (santa gives, children receive). The idea of gift giving includes knowing and respecting the target kid in terms of his <b><i>interests</i></b>, or any other relative <b><i>attributes</i></b> from demographic ones (<b><i>gender</i></b>, <b><i>age</i></b>, or <b><i>culture</i></b>) to self-induced ones. 
+    <p>This year is different. This year is even harder for <b><i>Santa</i></b> to satisfy all the good kids. This year <b><i>Santa</i></b> is not looking only for the good kids, now he is also looking for the good and <b><i>negative tested</i></b> for coronavirus kids.  Besides that, <b><i>Santa</i></b> has a very small pool of available <b><i>intangible gifts</i></b> this year, for the less lucky ones. As long as he isn't a sibling for the kid, he can't give them a kiss, or even a hug and <b><i>Santa</i></b> RESPECTS this rule, no matter if they're a beautiful high school cheerleader hottie or a miopico-nerdy-MIT student, he can't touch them, at all!</p>
+    <p>Who is <b><i>Santa</i></b>? <b><i>When</i></b> and <b><i>where</i></b> is he coming? To ease the explanation and to not deepen in paradoxal assertions, russians say that their Santa is named <b><i>Ded Moroz</i></b> and he is depicted as bringing presents to well-mannered children, often delivering them in person on <b><i>New Year's Eve</i></b> <i>(Russians don't care about coronavirus, so their version of Santa doesn't apply the negative-tested rule this year).</i> <b><i>Ded Moroz</i></b> made a deal with their president this year, Vladimir Putin, to deliver free SPUTNIK V anti-covid vaccine developed by them this year as an add-on to gifts given to kids (there are some conspirationists that say Vladimir Putin is the russian Ded Moroz). On the other hand, the rest of the world has the standard version of Santa available this year, the red one with red nose and white beard who is coming to the homes of <b><i>well-behaved</i></b> and <b><i>negative-tested</i></b> children on the night of <b><i>Christmas Eve</i></b> (December 24th) or during the early morning hours of <b><i>Christmas Day</i></b>.</p>
+    <p>In conclusion I would like to say that even if this year is different, <b><i>Santa</i></b> is not leaving us alone and will go from home to home, from kid to kid, to give them gifts, of course, while wearing a protection N95 mask in order to respect the new restrictions and if there’re more than 4 members in the family he will stay outside as long as the constraint regarding the maximum number of persons inside is not disposed of.</p>
+    <h1>
+        Classes
+    </h1>
+    <ul>
+        <li>Thing - as to abide to the universal notion that Things are</li>
+        <li>Human - have a certain name, age, gender; can be vulnerable, covid tested and covid positive</li>
+        <ul>
+            <li>Santa - he's just santa, duh</li>
+            <li>Child - can be good (or not)</li>
+        </ul>
+        <li>Culture - relevant, due to differences of on what holiday Santa comes</li>
+        <li>Gift - may be targeted towards a certain gender; such as trucks for boys, or make-up sessions for girls</li>
+        <ul>
+            <li>Tangible Gift - can be sent by mail; can be disinfected</li>
+            <ul>
+                <li>Clothing</li>
+                <li>Toy</li>
+                <li>Consumable</li>
+            </ul>
+            <li>Intangible Gift</li>
+            <ul>
+                <li>Gesture - such as hugs, kisses, playing something</li>
+                <li>Digital</li>
+                <li>Service</li>
+            </ul>
+        </ul>
+        <li>Holiday - has a name (everyone knows that)</li>
+        <li>Interest - something a child may be into, and a category which a gift can be related to</li>
+        <ul>
+            <li>Creative</li>
+            <li>Indoor</li>
+            <li>Outdoor</li>
+            <li>Physical</li>
+            <li>Social</li>
+            <li>>Solo</li>
+        </ul>
+        <li>Location - is on lockdown; can be reachable or not by boat, road, train, plane</li>
+        <li>Time Period - when a gift may be given, when a holiday happens; has a start and end dateTime</li>
+        <li>Weather - may obstruct travel by boat, road, train, plane</li>
+        <ul>
+            <li>Clear</li>
+            <li>Rain</li>
+            <li>Snow</li>
+            <li>Storm</li>
+            <li>Snowstorm</li>
+            <li>Sunny</li>
+            <li>Windy</li>
+        </ul>
+    </ul>
+    <h1>
+        Relations
+    </h1>
+    <ul>
+        <li>adheresTo</li>
+        <ul>
+            <li>Human -> Culture</li>
+            <li>assymetric, irreflexive</li>
+            <li>certain cultures have Santa come at different holidays</li>
+        </ul>
+        <li>celebratedOn</li>
+        <ul>
+            <li>Holiday -> Time-Period</li>
+            <li>assymetric, irreflexive</li>
+            <li>correlating to when the gift should be given</li>
+        </ul>
+        <li>friendsWith</li>
+        <ul>
+            <li>Human -> Human</li>
+            <li>symmetric, irreflexive</li>
+            <li>so that they may see each other, perhaps even play a social game</li>
+        </ul>
+        <li>parentOf</li>
+        <ul>
+            <li>Human -> Human</li>
+            <li>assymetric, irreflexive</li>
+            <li>may or may not be a Santa; also likely to not give tangible gifts via mail</li>
+        </ul>
+        <li>siblingWith</li>
+        <ul>
+            <li>Human -> Human</li>
+            <li>symmetric, irreflexive</li>
+            <li>both of the above</li>
+        </ul>
+        <li>givenAt</li>
+        <ul>
+            <li>Gift -> Time-Period</li>
+            <li>asymmetric, irreflexive</li>
+            <li>the time-period a gift is made at; relevant for checking in the weather</li>
+        </ul>
+        <li>gives</li>
+        <ul>
+            <li>Santa -> Gift/li>
+            <li>asymmetric, irreflexive</li>
+            <li>santa does as santa does; keep track of which gifts were given by which santa</li>
+        </ul>
+        <li>receives</li>
+        <ul>
+            <li>Child -> Gift</li>
+            <li>asymmetric, irreflexive</li>
+            <li>multiple children may even receive the same gift - if siblings</li>
+        </ul>
+        <li>interestedIn</li>
+        <ul>
+            <li>Child -> Interest</li>
+            <li>asymmetric, irreflexive</li>
+            <li>things the child likes; maybe gift something related to that</li>
+        </ul>
+        <li>livesIn</li>
+        <ul>
+            <li>Human -> Location</li>
+            <li>asymmetric, irreflexive</li>
+            <li>relevant for the time conditions, perhaps even whether the Santa and the child live in the same place</li>
+        </ul>
+        <li>relatedTo</li>
+        <ul>
+            <li>Gift -> Interest</li>
+            <li>asymmetric, irreflexive</li>
+            <li>what kind of gift is it</li>
+        </ul>
+        <li>santaGiftsOn</li>
+        <ul>
+            <li>Culture -> Holiday</li>
+            <li>asymmetric, irreflexive</li>
+            <li>the holiday the Santa(s) should arrive, given that it differs among cultures </li>
+        </ul>
+        <li>weatherAt</li>
+        <ul>
+            <li>Weather -> Location</li>
+            <li>asymmetric, irreflexive</li>
+            <li>bind a specific weather-event to a location (obstructions may ensue)</li>
+        </ul>
+         <li>weatherOn</li>
+        <ul>
+            <li>Weather -> Time-Period</li>
+            <li>asymmetric, irreflexive</li>
+            <li>bind a specific weather-event to a time-period (which may intersect with the holiday's time period)</li>
+        </ul>
+    </ul>
+</body> 
